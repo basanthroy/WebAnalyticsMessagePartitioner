@@ -8,12 +8,6 @@ scalaVersion := "2.11.8"
 
 javacOptions ++= Seq("-source", "1.8", "-target", "1.8")
 
-// https://mvnrepository.com/artifact/org.apache.spark/spark-streaming-kafka-0-10_2.11
-libraryDependencies += "org.apache.spark" % "spark-streaming-kafka-0-10_2.11" % "2.0.2"
-
-// https://mvnrepository.com/artifact/org.apache.spark/spark-core_2.11
-libraryDependencies += "org.apache.spark" % "spark-core_2.11" % "2.0.2"
-
 // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core
 libraryDependencies += "com.fasterxml.jackson.core" % "jackson-core" % "2.6.5"
 
@@ -25,14 +19,6 @@ libraryDependencies += "com.fasterxml.jackson.module" % "jackson-module-scala_2.
 
 // https://mvnrepository.com/artifact/com.fasterxml.jackson.module/jackson-module-scala
 libraryDependencies += "log4j" % "log4j" % "1.2.17"
-
-// https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients
-libraryDependencies += "org.apache.kafka" % "kafka-clients" % "0.10.1.0"
-
-// https://mvnrepository.com/artifact/org.apache.spark/spark-streaming_2.11
-libraryDependencies += "org.apache.spark" % "spark-streaming_2.11" % "2.0.2"
-
-libraryDependencies += "javax.servlet" % "javax.servlet-api" % "3.1.0"
 
 // https://mvnrepository.com/artifact/org.apache.kafka/kafka-streams
 libraryDependencies += "org.apache.kafka" % "kafka-streams" % "0.10.1.0"
